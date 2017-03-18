@@ -1,0 +1,34 @@
+﻿# gpsbabel XCSV style file
+#
+# Format: Garmin EDGE Position + Heartrate data + Cadence
+# Author: Dario Costa
+#   Date: 18/07/2007
+#
+
+DESCRIPTION		Garmin EDGE Custom position, heartrate and cadence
+
+# FILE LAYOUT DEFINITIIONS:
+#
+FIELD_DELIMITER		COMMA
+RECORD_DELIMITER	NEWLINE
+BADCHARS		COMMA
+DATATYPE    TRACK 
+#FORMAT_TYPE		INTERNAL
+
+#
+# HEADER STUFF:
+#
+PROLOGUE	Garmin EDGE data __FILE__ 
+PROLOGUE	Track Name, ISOTime, Latitude, Longitude, Altitude(mt), heart rate, cadence
+#
+# INDIVIDUAL DATA FIELDS:
+#
+IFIELD	TRACK_NAME,"","%s"
+IFIELD	ISO_TIME,"","%ld"
+IFIELD	LAT_DECIMAL,"","%f"
+IFIELD	LON_DECIMAL,"","%f"
+IFIELD	ALT_METERS,"","%f"
+IFIELD  HEART_RATE,"","%d"	# beats per minute
+IFIELD  CADENCE,"","%d"	# cadence
+
+# EPILOGUE: 

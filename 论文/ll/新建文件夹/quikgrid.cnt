@@ -1,0 +1,79 @@
+:Base QuikGrid.hlp>Medium
+:Title QuikGrid
+1 Copyright=Disclaimer
+1 Introduction=Introduction
+1 What's new in version 5.3=version53new
+1 What's new in version 5.2=version52new
+1 What's new in version 5.1=version51new
+1 What's new in version 5.0=version50new
+1 File Options (reading, saving, printing)
+2 Processing a command file. =ProcessCommandFile
+2 Reading scattered data points=InputScatteredData
+2 Reading an outline file. =InputOutlinedata
+2 Saving scattered data points to a file=SavingScatteredData
+2 Saving the grid in QuikGrid format=SaveFileGrid
+2 Loading a grid from a file=LoadFileGrid
+2 Saving the grid as XYZ triplets=SaveXYZGrid
+2 Saving the grid in the Surfer .GRD format=SaveGRDgrid
+2 Exporting a grid in the ER Mapper format=SaveERmappergrid
+2 Exporting the grid in the DXF format=OutputDXF
+2 Exporting the grid in the DXF 3DFACE format=Output3DFACE
+2 Exporting the grid in the VRML (Virtual Reality Modeling Language) format=ExportVRML
+2 Printing =Printing
+2 Associating file types with QuikGrid =Associations
+1 View Options (2d Contour maps, 3d Surfaces)
+2 2 dimensional contour map =ViewContourMap
+2 3 dimensional perspective image. =ViewPerspective
+2 Viewing options=MapViewOptions
+2 Displaying information about the gird. =GridInfo
+2 Zooming in or magnifying the display=Zooming
+2 Controlling the number of grid lines displayed=GridResolution
+1 Edit Options (Contour lines, colors, etc.
+2 Editing the color of features=EditColourFeatures
+2 Editing the colour map=EditColourMap
+2 Editing the number, value and labels for contour lines=ContourIntervals
+2 Changing angle and perspective projection for the 3d view. =EditViewpoint
+2 Change the number of grid lines =NumberGridLines
+2 Editing the grid line coordinates =EditGridDimensions
+2 Changing the grid generation parameters=TechnicalParameters
+2 Changing data input options=DataInputOptions
+2 Changing data output options=DataOutputOptions
+2 Changing what scattered data point information is displayed=ViewDataPointOptions
+2 Changing the look of the right mouse button dialog box.=RightButtonOptions
+2 Changing the shape of the surface (3d view) =ZRatio
+1 Window menu
+2 Zooming =Zooming
+2 Copying the image to the clipboard=CopyClipboard
+1 Grid options
+2 Control of grid generation=GridGeneration
+2 Cropping a 2d view.=GridCropping
+2 Grid colour mapping. =GridColourMap
+2 Controlling the number of grid lines displayed=GridResolution
+2 Locking grid coordinates as a template=GridTemplates
+1 Special functions
+2 Displaying meteorological data =MeteorologicalData
+2 Changing grid intersections to other values=Functions
+2 Using the colour layer=FunctionColourLayer
+1 Using QuikGrid under UNIX
+2 Using QuikGrid under UNIX =UnixSupport
+1 Using QuikGrid from other programs (Visual Basic)
+2 Introduction=ShellOverview
+2 File associations =Associations
+2 Command file processing=ProcessCommandFile
+1 Handling special data.
+2 Handling data that is not evenly distributed=UnevenDistributionComments
+2 Handling large amounts of data =LargeDataComments
+1 Questions and Answers
+2 How do I get started? =Question1
+2 How do I prepare my input data?=Question2
+2 What units should I use? =Question3
+2 The DXF file doesn't produce the results I expected??? =Question4
+2 The display has big gaps in the grid and contour lines? =Question5
+2 My XYZ data already represents a grid - any suggestions? =Question6
+2 Why won't the DXF file load into...? =Question7
+1 About QuikGrid
+2 Author=Author
+2 Copyright, copying and redistribution conditions and Disclaimer=Disclaimer
+2 Algorithm=Algorithm
+2 Limitations=Limitations
+2 Artifacts (Unexpected results) =Artifacts
